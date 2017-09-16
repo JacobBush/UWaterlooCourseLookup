@@ -1,0 +1,79 @@
+/* Update this file with your styling rules. */
+
+/*colors:
+#C0B283 - Gold
+#DCD0C0 - Cream
+#F4F4F4 - Light
+#373737 - Dark
+*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, html {
+	background-color: #DCD0C0;
+	color : #373737;
+	text-align:center;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#informationHeader {
+	padding: 5px;
+	border: 1px solid #373737;
+	margin: 0px;
+	text-align:left;
+	background-color: white;
+}
+
+#viewContent {
+	margin: auto;
+	max-width: 800px;
+	width: 100%;
+	min-height: 100%;
+	background-color: #F4F4F4;
+	padding: 20px;
+}
+
+div {
+	text-align:center;
+}
+
+.noborder {
+	border: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#viewHeader {
+	width: 100%;
+	padding: 10px 0px;
+	margin: 0px;
+	text-align: left;
+
+}
+
+.tab {
+	display: inline-block;
+	width: 80px;
+	height: 20px;
+	background-color: #C0B283;
+	color: #F4F4F4;
+}
+
+.tab:hover {
+	color: #373737;
+	cursor: pointer;
+}

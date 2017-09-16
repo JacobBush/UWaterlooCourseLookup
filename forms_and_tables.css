@@ -1,0 +1,85 @@
+
+#formBox {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 0px;
+}
+
+#dataDump {
+	width: 100%;
+	max-height: 100%;
+	padding: 0px;
+}
+
+.dataReturnTable {
+	display: inline-block;
+	text-align: left;
+	background-color: white ;
+    border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+	display: table;
+	padding: 0px;
+	margin: 0px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 2px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.subjectBlock {
+	box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.subjectBlockRow, .subjectBlockLabel, .subjectBlockValue {
+	border: none;
+}
+
+.subjectBlockLabel {
+	background: #F4F4F4;
+	width: 84px;
+}
+
+table, tbody, thead, tr {
+	border: none;
+}
+
+th, .capitalize {
+	text-transform: capitalize;
+}
+
+.responsive-form {
+	box-sizing: border-box;
+	background-color: white;
+	display: inline-block;
+	text-align: left;
+	max-width: 350px;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	border: 1px black solid;
+	height: 100%;
+}
+
+.responsive-form td {
+	border: none;
+}
+
+.results_total_count_box {
+	font-weight: bold;
+}
+
+.results_fraction {
+	width: 300px;
+	margin: 0;
+}
+
+#dataDumpHeader, #dataDumpFooter {
+	padding: 5px;
+}
+
